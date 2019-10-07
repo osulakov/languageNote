@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="OSWordArea" representedClassName="OSWordArea" syncable="YES">
+        <attribute name="areaName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="words" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OSWordEntity" inverseName="area" inverseEntity="OSWordEntity" syncable="YES"/>
+    </entity>
+    <entity name="OSWordEntity" representedClassName="OSWordEntity" syncable="YES">
+        <attribute name="wordContext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordCreatingDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="wordExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordNameInitial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordPicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordScore" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="wordSound" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordTranslation" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="area" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OSWordArea" inverseName="words" inverseEntity="OSWordArea" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="OSWordArea" positionX="-12898.890625" positionY="-521.0625" width="128" height="73"/>
+        <element name="OSWordEntity" positionX="-13204.71484375" positionY="-624.2890625" width="128" height="193"/>
+    </elements>
+</model>
