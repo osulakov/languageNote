@@ -21,6 +21,8 @@
 		BF5313E5231B214600CF6E93 /* OSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5313E4231B214600CF6E93 /* OSTestViewController.m */; };
 		BF5313E8231D9C1100CF6E93 /* icon_words.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5313E7231D9C1100CF6E93 /* icon_words.png */; };
 		BF5313F52320353200CF6E93 /* OSWordDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5313F42320353200CF6E93 /* OSWordDetailsView.m */; };
+		BF651CDC234CE924009ADFB2 /* language_note1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF651CDB234CE924009ADFB2 /* language_note1.png */; };
+		BF651CDE234CEA11009ADFB2 /* language_note2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF651CDD234CEA11009ADFB2 /* language_note2.png */; };
 		BF79849C22FA0B7B00D83408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF79849B22FA0B7B00D83408 /* AppDelegate.m */; };
 		BF79849F22FA0B7B00D83408 /* OSWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF79849E22FA0B7B00D83408 /* OSWordViewController.m */; };
 		BF7984A222FA0B7B00D83408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7984A022FA0B7B00D83408 /* Main.storyboard */; };
@@ -80,6 +82,8 @@
 		BF5313E7231D9C1100CF6E93 /* icon_words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_words.png; sourceTree = "<group>"; };
 		BF5313F32320353200CF6E93 /* OSWordDetailsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSWordDetailsView.h; sourceTree = "<group>"; };
 		BF5313F42320353200CF6E93 /* OSWordDetailsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSWordDetailsView.m; sourceTree = "<group>"; };
+		BF651CDB234CE924009ADFB2 /* language_note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language_note1.png; sourceTree = "<group>"; };
+		BF651CDD234CEA11009ADFB2 /* language_note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language_note2.png; sourceTree = "<group>"; };
 		BF79849722FA0B7B00D83408 /* OSLearnMyLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSLearnMyLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF79849A22FA0B7B00D83408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF79849B22FA0B7B00D83408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				BF5313E7231D9C1100CF6E93 /* icon_words.png */,
+				BF651CDD234CEA11009ADFB2 /* language_note2.png */,
+				BF651CDB234CE924009ADFB2 /* language_note1.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -388,6 +394,8 @@
 				BF5313E8231D9C1100CF6E93 /* icon_words.png in Resources */,
 				BF7984AA22FA0B7C00D83408 /* LaunchScreen.storyboard in Resources */,
 				BF7984A722FA0B7C00D83408 /* Assets.xcassets in Resources */,
+				BF651CDC234CE924009ADFB2 /* language_note1.png in Resources */,
+				BF651CDE234CEA11009ADFB2 /* language_note2.png in Resources */,
 				BF7984A222FA0B7B00D83408 /* Main.storyboard in Resources */,
 				BFAF4F7023313A1B008F3A43 /* click1.m4a in Resources */,
 			);
