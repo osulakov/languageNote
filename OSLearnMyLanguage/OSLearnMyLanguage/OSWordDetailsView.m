@@ -23,9 +23,9 @@
     
     self = [super initWithFrame:frame];
     
-    self.backgroundColor = [OSColorsAndAttributes getDarkGreenColor];
+    self.backgroundColor = [OSColorsAndAttributes getMediumGreenColor];
     self.alpha = 0.8;
-    self.layer.cornerRadius = 7;
+    self.layer.cornerRadius = 4;
     
     double frameOffset = 7;
     
@@ -35,7 +35,7 @@
                                 self.bounds.size.width - (frameOffset * 2),
                                 self.bounds.size.height / 8 * 6);
     UIView* contentView = [[UIView alloc] initWithFrame:contentRect];
-    contentView.backgroundColor = [UIColor lightGrayColor];
+    contentView.backgroundColor = [OSColorsAndAttributes getExtraLightGrayColor];
     contentView.alpha = 1.0;
     
     contentView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |
@@ -48,9 +48,9 @@
     
     CGRect line1Rect = CGRectMake(0, 0, lineWidth, part);
     UILabel* line1Label = [[UILabel alloc] initWithFrame:line1Rect];
-    line1Label.backgroundColor = [UIColor lightGrayColor];
+    line1Label.backgroundColor = [OSColorsAndAttributes getExtraLightGrayColor];
+    line1Label.textColor = [UIColor grayColor];
     line1Label.alpha = 1.0;
-    line1Label.textColor = [UIColor whiteColor];
     line1Label.font = [UIFont fontWithName:@"Helvetica-Light" size:10];
     line1Label.text = [NSString stringWithFormat:@"   Word name"];
     line1Label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |
@@ -72,9 +72,9 @@
     
     CGRect line3Rect = CGRectMake(0, line2Rect.origin.y + line2Rect.size.height, lineWidth, part);
     UILabel* line3Label = [[UILabel alloc] initWithFrame:line3Rect];
-    line3Label.backgroundColor = [UIColor lightGrayColor];
+    line3Label.backgroundColor = [OSColorsAndAttributes getExtraLightGrayColor];
+    line3Label.textColor = [UIColor grayColor];
     line3Label.alpha = 1.0;
-    line3Label.textColor = [UIColor whiteColor];
     line3Label.font = [UIFont fontWithName:@"Helvetica-Light" size:10];
     line3Label.text = [NSString stringWithFormat:@"   Word translation"];
     line3Label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |
@@ -96,9 +96,9 @@
     
     CGRect line5Rect = CGRectMake(0, line4Rect.origin.y + line4Rect.size.height, lineWidth, part);
     UILabel* line5Label = [[UILabel alloc] initWithFrame:line5Rect];
-    line5Label.backgroundColor = [UIColor lightGrayColor];
+    line5Label.backgroundColor = [OSColorsAndAttributes getExtraLightGrayColor];
+    line5Label.textColor = [UIColor grayColor];
     line5Label.alpha = 1.0;
-    line5Label.textColor = [UIColor whiteColor];
     line5Label.font = [UIFont fontWithName:@"Helvetica-Light" size:10];
     line5Label.text = [NSString stringWithFormat:@"   Word category"];
     line5Label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |
@@ -120,9 +120,9 @@
     
     CGRect line7Rect = CGRectMake(0, line6Rect.origin.y + line6Rect.size.height, lineWidth, part);
     UILabel* line7Label = [[UILabel alloc] initWithFrame:line7Rect];
-    line7Label.backgroundColor = [UIColor lightGrayColor];
+    line7Label.backgroundColor = [OSColorsAndAttributes getExtraLightGrayColor];
+    line7Label.textColor = [UIColor grayColor];
     line7Label.alpha = 1.0;
-    line7Label.textColor = [UIColor whiteColor];
     line7Label.font = [UIFont fontWithName:@"Helvetica-Light" size:10];
     line7Label.text = [NSString stringWithFormat:@"   Explanation"];
     line7Label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |
@@ -144,9 +144,9 @@
     
     CGRect line9Rect = CGRectMake(0, line8Rect.origin.y + line8Rect.size.height, lineWidth, part);
     UILabel* line9Label = [[UILabel alloc] initWithFrame:line9Rect];
-    line9Label.backgroundColor = [UIColor lightGrayColor];
+    line9Label.backgroundColor = [OSColorsAndAttributes getExtraLightGrayColor];
+    line9Label.textColor = [UIColor grayColor];
     line9Label.alpha = 1.0;
-    line9Label.textColor = [UIColor whiteColor];
     line9Label.font = [UIFont fontWithName:@"Helvetica-Light" size:10];
     line9Label.text = [NSString stringWithFormat:@"   Context"];
     line9Label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin |

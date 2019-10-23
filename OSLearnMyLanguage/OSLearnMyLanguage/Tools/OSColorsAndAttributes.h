@@ -17,13 +17,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSAttributedString*)getAttributedTextStringFromString:(NSString*)string;
 + (NSAttributedString*)highlightWord:(NSString*)string inText:(NSString*)text;
 + (UIColor*)getColorWithRed:(NSInteger)red andGreen:(NSInteger)green andBlue:(NSInteger)blue andAlpha:(CGFloat)alpha;
-+ (UIColor*)darkGreenTextColor;
 + (UIFont*)getTextFont;
 + (UIColor*)getExtraDarkGreenColor;
-+ (UIColor*)getTabBarItemColor;
 + (UIColor*)getViewBackgroundColor;
 + (UIColor*)getCellColor;
 + (UIColor*)getDarkGreenColor;
++ (UIColor*)getMediumGreenColor;
++ (UIColor*)getExtraLightGrayColor;
 
 @end
 

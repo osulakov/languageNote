@@ -16,6 +16,8 @@
 
 @interface OSWordViewController () <UITableViewDataSource, UITableViewDelegate>;
 
+@property(strong, nonatomic) FIRAuthStateDidChangeListenerHandle handle;
+
 @end
 
 @implementation OSWordViewController
@@ -41,6 +43,27 @@
         [self presentViewController:authVC animated:YES completion:nil];
     }
     
+    if ([FIRAuth auth].currentUser) {
+        NSLog(@"%@ is signed in", [[FIRAuth auth].currentUser email]);
+    } else {
+        NSLog(@"no User");
+    }
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    
+    self.handle = [[FIRAuth auth]
+    addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth, FIRUser *_Nullable user) {
+      // ...
+    }];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:YES];
+    
+    [[FIRAuth auth] removeAuthStateDidChangeListener:_handle];
 }
 
 #pragma mark - Actions

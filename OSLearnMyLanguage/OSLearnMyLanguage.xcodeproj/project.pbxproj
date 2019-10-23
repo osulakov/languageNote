@@ -10,6 +10,8 @@
 		09BF7F11853FA4206F48416D /* Pods_OSLearnMyLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1824D9AC616DED9A6017B5 /* Pods_OSLearnMyLanguage.framework */; };
 		8B61BB11094DCC97B216F17A /* Pods_OSLearnMyLanguageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED90BEFD75DB2604E384C344 /* Pods_OSLearnMyLanguageTests.framework */; };
 		AEB9925BF1FD12953A774AF5 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B7D3970EABC09865AE3A8 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework */; };
+		BF404DC62360C904000AC331 /* setting_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF404DC52360C904000AC331 /* setting_button.png */; };
+		BF404DC92360CB4E000AC331 /* OSSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF404DC82360CB4E000AC331 /* OSSettingsTableViewController.m */; };
 		BF5313A0230DC2CD00CF6E93 /* OSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53139F230DC2CD00CF6E93 /* OSDataManager.m */; };
 		BF5313B2230DEF6A00CF6E93 /* OSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5313B1230DEF6A00CF6E93 /* OSAlertController.m */; };
 		BF5313B5230E0B7400CF6E93 /* OSWordDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5313B4230E0B7400CF6E93 /* OSWordDetailsController.m */; };
@@ -65,6 +67,9 @@
 		5B9B47AFB404EADBD45663F8 /* Pods-OSLearnMyLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguage.debug.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguage/Pods-OSLearnMyLanguage.debug.xcconfig"; sourceTree = "<group>"; };
 		95A3CC13B4E2410702EE017E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EE2711CA7864AEF96D2932C /* Pods-OSLearnMyLanguageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguageTests.release.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguageTests/Pods-OSLearnMyLanguageTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF404DC52360C904000AC331 /* setting_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_button.png; sourceTree = "<group>"; };
+		BF404DC72360CB4E000AC331 /* OSSettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSettingsTableViewController.h; sourceTree = "<group>"; };
+		BF404DC82360CB4E000AC331 /* OSSettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSettingsTableViewController.m; sourceTree = "<group>"; };
 		BF53139E230DC2CD00CF6E93 /* OSDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSDataManager.h; sourceTree = "<group>"; };
 		BF53139F230DC2CD00CF6E93 /* OSDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSDataManager.m; sourceTree = "<group>"; };
 		BF5313B0230DEF6A00CF6E93 /* OSAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSAlertController.h; sourceTree = "<group>"; };
@@ -179,9 +184,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF404DCA2360CB59000AC331 /* ---Settings--- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "---Settings---";
+			sourceTree = "<group>";
+		};
 		BF5313E6231D9C1100CF6E93 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BF404DC52360C904000AC331 /* setting_button.png */,
 				BF5313E7231D9C1100CF6E93 /* icon_words.png */,
 				BF7DB151235FF4AE00BB7F90 /* cancel_button.png */,
 				BF651CDD234CEA11009ADFB2 /* language_note2.png */,
@@ -256,10 +269,13 @@
 				BF5313E4231B214600CF6E93 /* OSTestViewController.m */,
 				BFAF4F6B23312B6D008F3A43 /* OSSmallCardView.h */,
 				BFAF4F6C23312B6D008F3A43 /* OSSmallCardView.m */,
-				BF7984A022FA0B7B00D83408 /* Main.storyboard */,
+				BF404DCA2360CB59000AC331 /* ---Settings--- */,
+				BF404DC72360CB4E000AC331 /* OSSettingsTableViewController.h */,
+				BF404DC82360CB4E000AC331 /* OSSettingsTableViewController.m */,
 				BF5313F2232034E600CF6E93 /* Tools */,
 				BFAF4F75233308CE008F3A43 /* Is not used */,
 				BF7984A622FA0B7C00D83408 /* Assets.xcassets */,
+				BF7984A022FA0B7B00D83408 /* Main.storyboard */,
 				BF7984A822FA0B7C00D83408 /* LaunchScreen.storyboard */,
 				BF7984AB22FA0B7C00D83408 /* Info.plist */,
 				BF7984AC22FA0B7C00D83408 /* main.m */,
@@ -456,6 +472,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF404DC62360C904000AC331 /* setting_button.png in Resources */,
 				BF5313E8231D9C1100CF6E93 /* icon_words.png in Resources */,
 				BF7DB150235FEB2C00BB7F90 /* GoogleService-Info.plist in Resources */,
 				BF7984AA22FA0B7C00D83408 /* LaunchScreen.storyboard in Resources */,
@@ -604,6 +621,7 @@
 				BF5313E5231B214600CF6E93 /* OSTestViewController.m in Sources */,
 				BF79849F22FA0B7B00D83408 /* OSWordViewController.m in Sources */,
 				BF7984A522FA0B7B00D83408 /* OSLearnMyLanguage.xcdatamodeld in Sources */,
+				BF404DC92360CB4E000AC331 /* OSSettingsTableViewController.m in Sources */,
 				BF5313D92318132300CF6E93 /* OSCategoryDetailsViewController.m in Sources */,
 				BF5313D42317700A00CF6E93 /* OSWordArea+CoreDataProperties.m in Sources */,
 				BF5313E22319DFFC00CF6E93 /* OSColorsAndAttributes.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <Firebase.h>
 #import "OSDataManagerViewController.h"
 
 typedef enum {
@@ -27,7 +28,7 @@ typedef enum {
 
 - (void)configureCell:(UITableViewCell*)cell atIndexPath:(NSIndexPath*)indexPath;
 
-- (void)configureSelectedCell:(UITableViewCell*)cell atIndexPath:(NSIndexPath*)indexPath;
+//- (void)configureSelectedCell:(UITableViewCell*)cell atIndexPath:(NSIndexPath*)indexPath;
 
 @end
 

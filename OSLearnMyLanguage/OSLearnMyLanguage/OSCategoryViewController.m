@@ -29,7 +29,7 @@
     
     [self wordList];
     
-    self.navigationController.navigationBar.tintColor = [OSColorsAndAttributes darkGreenTextColor];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
 
 #pragma mark - Privat methods

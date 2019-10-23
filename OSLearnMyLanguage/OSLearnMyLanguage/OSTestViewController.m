@@ -477,7 +477,7 @@ static int fakeAnswersCount = 50;
     dayComponent.day = -1;
     NSDate *yesterday = [theCalendar dateByAddingComponents:dayComponent toDate:[NSDate date] options:0];
     
-    NSPredicate* predicate = [NSPredicate predicateWithFormat:@"wordCreatingDate > %@", yesterday];
+    //NSPredicate* predicate = [NSPredicate predicateWithFormat:@"wordCreatingDate > %@", yesterday];
     //[fetchRequest setPredicate:predicate]; // should uncomment this
     
     NSFetchedResultsController* aFetchedResultsController =

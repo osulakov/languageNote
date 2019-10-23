@@ -13,12 +13,13 @@
 #define FONT_NAME @"Helvetica-Light"
 
 //Color scheme #1 GREEN
-#define COLOR_0 [self getColorWithRed:0 andGreen:69 andBlue:41 andAlpha:1.0] //extra dark
-#define COLOR_1 [self getColorWithRed:13 andGreen:106 andBlue:4 andAlpha:1.0] //strong darkness
-//#define COLOR_2 [self getColorWithRed:0 andGreen:104 andBlue:63 andAlpha:1.0] //medium darkness
-#define COLOR_2 [self getColorWithRed:58 andGreen:170 andBlue:148 andAlpha:1.0] //medium darkness
-#define COLOR_3 [self getColorWithRed:240 andGreen:240 andBlue:245 andAlpha:1.0] //light
-#define COLOR_4 [self getColorWithRed:189 andGreen:232 andBlue:250 andAlpha:1.0] //extra light
+#define COLOR_0 [self getColorWithRed:50 andGreen:137 andBlue:68 andAlpha:1.0] //extra dark
+#define COLOR_1 [self getColorWithRed:50 andGreen:183 andBlue:68 andAlpha:1.0] //strong darkness
+#define COLOR_2 [self getColorWithRed:50 andGreen:183 andBlue:68 andAlpha:1.0] //medium darkness
+#define COLOR_3 [self getColorWithRed:50 andGreen:183 andBlue:68 andAlpha:0.2] //light
+#define COLOR_4 [self getColorWithRed:50 andGreen:183 andBlue:68 andAlpha:0.05] //extra light
+
+#define COLOR_5 [self getColorWithRed:246 andGreen:246 andBlue:246 andAlpha:1.0] //extra light gray
 
 
 @implementation OSColorsAndAttributes
@@ -91,15 +92,6 @@
     
 }
 
-+ (UIColor*)darkGreenTextColor {
-    
-    CGFloat r = 0;
-    CGFloat g = (CGFloat)107 / 255.f;
-    CGFloat b = (CGFloat)65 / 255.f;
-    
-    return [UIColor colorWithRed:r green:g blue:b alpha:1.0];
-}
-
 + (UIFont*)getTextFont {
     UIFont* textFont = [UIFont fontWithName:FONT_NAME size:FONT_SIZE_TEXT];
     return textFont;
@@ -110,23 +102,28 @@
     return textColor;
 }
 
-+ (UIColor*)getTabBarItemColor {
-    UIColor* itemColor = COLOR_1;
-    return itemColor;
++ (UIColor*)getDarkGreenColor {
+    UIColor* color = COLOR_1;
+    return color;
 }
 
-+ (UIColor*)getDarkGreenColor {
++ (UIColor*)getMediumGreenColor {
     UIColor* color = COLOR_2;
     return color;
 }
 
 + (UIColor*)getViewBackgroundColor {
-    UIColor* color = COLOR_3;
-    return color;
+    //UIColor* color = COLOR_3;
+    return [UIColor whiteColor];
 }
 
 + (UIColor*)getCellColor {
     UIColor* color = COLOR_4;
+    return color;
+}
+
++ (UIColor*)getExtraLightGrayColor {
+    UIColor* color = COLOR_5;
     return color;
 }
 

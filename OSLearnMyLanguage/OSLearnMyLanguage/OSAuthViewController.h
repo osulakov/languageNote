@@ -7,15 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface OSAuthViewController : UIViewController
+@interface OSAuthViewController : UIViewController <UITextFieldDelegate>
 
-@property (strong, nonatomic) IBOutlet UILabel* signIn;
-@property (strong, nonatomic) IBOutlet UILabel* orWord;
+@property (strong, nonatomic) IBOutlet UILabel* signInLabel;
+@property (strong, nonatomic) IBOutlet UILabel* orWordLabel;
 @property (strong, nonatomic) IBOutlet UIButton* createNewAccountButton;
 @property (assign, nonatomic) BOOL createNewAccountMode;
+@property (strong, nonatomic) IBOutlet UITextField* emailTextField;
+@property (strong, nonatomic) IBOutlet UITextField* passwordTextField;
 
 - (IBAction)cancelAuthAction:(UIButton*)sender;
 - (IBAction)createNewAccountAction:(UIButton*)sender;
