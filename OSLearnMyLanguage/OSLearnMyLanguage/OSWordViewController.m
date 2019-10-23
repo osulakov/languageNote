@@ -12,6 +12,7 @@
 #import "OSColorsAndAttributes.h"
 #import "OSAddWordViewController.h"
 #import "OSWordDetailsView.h"
+#import "OSAuthViewController.h"
 
 @interface OSWordViewController () <UITableViewDataSource, UITableViewDelegate>;
 
@@ -31,6 +32,14 @@
     dayComponent.day = -1;
     NSDate *yesterday = [theCalendar dateByAddingComponents:dayComponent toDate:today options:0];
     [self wordList:yesterday];
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"]) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"HasLaunchedOnce"];
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        OSAuthViewController* authVC =
+        [storyboard instantiateViewControllerWithIdentifier:@"OSAuthViewController"];
+        [self presentViewController:authVC animated:YES completion:nil];
+    }
     
 }
 

@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09BF7F11853FA4206F48416D /* Pods_OSLearnMyLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1824D9AC616DED9A6017B5 /* Pods_OSLearnMyLanguage.framework */; };
+		8B61BB11094DCC97B216F17A /* Pods_OSLearnMyLanguageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED90BEFD75DB2604E384C344 /* Pods_OSLearnMyLanguageTests.framework */; };
+		AEB9925BF1FD12953A774AF5 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B7D3970EABC09865AE3A8 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework */; };
 		BF5313A0230DC2CD00CF6E93 /* OSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53139F230DC2CD00CF6E93 /* OSDataManager.m */; };
 		BF5313B2230DEF6A00CF6E93 /* OSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5313B1230DEF6A00CF6E93 /* OSAlertController.m */; };
 		BF5313B5230E0B7400CF6E93 /* OSWordDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5313B4230E0B7400CF6E93 /* OSWordDetailsController.m */; };
@@ -33,6 +36,9 @@
 		BF7984B722FA0B7C00D83408 /* OSLearnMyLanguageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7984B622FA0B7C00D83408 /* OSLearnMyLanguageTests.m */; };
 		BF7984C222FA0B7C00D83408 /* OSLearnMyLanguageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7984C122FA0B7C00D83408 /* OSLearnMyLanguageUITests.m */; };
 		BF79851D22FA3C6100D83408 /* OSAddWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF79851C22FA3C6100D83408 /* OSAddWordViewController.m */; };
+		BF7DB150235FEB2C00BB7F90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF7DB14F235FEB2C00BB7F90 /* GoogleService-Info.plist */; };
+		BF7DB152235FF4AE00BB7F90 /* cancel_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7DB151235FF4AE00BB7F90 /* cancel_button.png */; };
+		BF7DB15B235FFE4200BB7F90 /* OSAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7DB15A235FFE4200BB7F90 /* OSAuthViewController.m */; };
 		BFAF4F6D23312B6D008F3A43 /* OSSmallCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF4F6C23312B6D008F3A43 /* OSSmallCardView.m */; };
 		BFAF4F7023313A1B008F3A43 /* click1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BFAF4F6F23313A1B008F3A43 /* click1.m4a */; };
 /* End PBXBuildFile section */
@@ -55,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D6B7D3970EABC09865AE3A8 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9B47AFB404EADBD45663F8 /* Pods-OSLearnMyLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguage.debug.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguage/Pods-OSLearnMyLanguage.debug.xcconfig"; sourceTree = "<group>"; };
+		95A3CC13B4E2410702EE017E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE2711CA7864AEF96D2932C /* Pods-OSLearnMyLanguageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguageTests.release.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguageTests/Pods-OSLearnMyLanguageTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF53139E230DC2CD00CF6E93 /* OSDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSDataManager.h; sourceTree = "<group>"; };
 		BF53139F230DC2CD00CF6E93 /* OSDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSDataManager.m; sourceTree = "<group>"; };
 		BF5313B0230DEF6A00CF6E93 /* OSAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSAlertController.h; sourceTree = "<group>"; };
@@ -103,10 +113,19 @@
 		BF7984C322FA0B7C00D83408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF79851B22FA3C6100D83408 /* OSAddWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSAddWordViewController.h; sourceTree = "<group>"; };
 		BF79851C22FA3C6100D83408 /* OSAddWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSAddWordViewController.m; sourceTree = "<group>"; };
+		BF7DB14F235FEB2C00BB7F90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF7DB151235FF4AE00BB7F90 /* cancel_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_button.png; sourceTree = "<group>"; };
+		BF7DB159235FFE4200BB7F90 /* OSAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSAuthViewController.h; sourceTree = "<group>"; };
+		BF7DB15A235FFE4200BB7F90 /* OSAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSAuthViewController.m; sourceTree = "<group>"; };
 		BFAF4F6B23312B6D008F3A43 /* OSSmallCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSmallCardView.h; sourceTree = "<group>"; };
 		BFAF4F6C23312B6D008F3A43 /* OSSmallCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSmallCardView.m; sourceTree = "<group>"; };
 		BFAF4F6F23313A1B008F3A43 /* click1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click1.m4a; sourceTree = "<group>"; };
 		BFAF4F7123313B11008F3A43 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		CB6A8E37C9D42D58FFEC113E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.release.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDA3141DC7188377524E01CA /* Pods-OSLearnMyLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguage.release.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguage/Pods-OSLearnMyLanguage.release.xcconfig"; sourceTree = "<group>"; };
+		ED90BEFD75DB2604E384C344 /* Pods_OSLearnMyLanguageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSLearnMyLanguageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68187917D33B26E9C8619DF /* Pods-OSLearnMyLanguageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSLearnMyLanguageTests.debug.xcconfig"; path = "Target Support Files/Pods-OSLearnMyLanguageTests/Pods-OSLearnMyLanguageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1824D9AC616DED9A6017B5 /* Pods_OSLearnMyLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSLearnMyLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BF7F11853FA4206F48416D /* Pods_OSLearnMyLanguage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B61BB11094DCC97B216F17A /* Pods_OSLearnMyLanguageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,16 +149,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB9925BF1FD12953A774AF5 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A5C66C270BDFD87E54221F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B9B47AFB404EADBD45663F8 /* Pods-OSLearnMyLanguage.debug.xcconfig */,
+				CDA3141DC7188377524E01CA /* Pods-OSLearnMyLanguage.release.xcconfig */,
+				95A3CC13B4E2410702EE017E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig */,
+				CB6A8E37C9D42D58FFEC113E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.release.xcconfig */,
+				F68187917D33B26E9C8619DF /* Pods-OSLearnMyLanguageTests.debug.xcconfig */,
+				9EE2711CA7864AEF96D2932C /* Pods-OSLearnMyLanguageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69F002DA333BA05BC4C618D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1824D9AC616DED9A6017B5 /* Pods_OSLearnMyLanguage.framework */,
+				4D6B7D3970EABC09865AE3A8 /* Pods_OSLearnMyLanguage_OSLearnMyLanguageUITests.framework */,
+				ED90BEFD75DB2604E384C344 /* Pods_OSLearnMyLanguageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF5313E6231D9C1100CF6E93 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				BF5313E7231D9C1100CF6E93 /* icon_words.png */,
+				BF7DB151235FF4AE00BB7F90 /* cancel_button.png */,
 				BF651CDD234CEA11009ADFB2 /* language_note2.png */,
 				BF651CDB234CE924009ADFB2 /* language_note1.png */,
 			);
@@ -158,10 +204,13 @@
 		BF79848E22FA0B7B00D83408 = {
 			isa = PBXGroup;
 			children = (
+				BF7DB14F235FEB2C00BB7F90 /* GoogleService-Info.plist */,
 				BF79849922FA0B7B00D83408 /* OSLearnMyLanguage */,
 				BF7984B522FA0B7C00D83408 /* OSLearnMyLanguageTests */,
 				BF7984C022FA0B7C00D83408 /* OSLearnMyLanguageUITests */,
 				BF79849822FA0B7B00D83408 /* Products */,
+				69F002DA333BA05BC4C618D8 /* Frameworks */,
+				5A5C66C270BDFD87E54221F6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +236,9 @@
 				BF53139F230DC2CD00CF6E93 /* OSDataManager.m */,
 				BF5313DA23181D6D00CF6E93 /* OSDataManagerViewController.h */,
 				BF5313DB23181D6D00CF6E93 /* OSDataManagerViewController.m */,
+				BF7DB153235FFD6900BB7F90 /* ---Auth--- */,
+				BF7DB159235FFE4200BB7F90 /* OSAuthViewController.h */,
+				BF7DB15A235FFE4200BB7F90 /* OSAuthViewController.m */,
 				BFAF4F722333087B008F3A43 /* ---Word--- */,
 				BF79851B22FA3C6100D83408 /* OSAddWordViewController.h */,
 				BF79851C22FA3C6100D83408 /* OSAddWordViewController.m */,
@@ -249,6 +301,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		BF7DB153235FFD6900BB7F90 /* ---Auth--- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "---Auth---";
+			path = "---Word---/OSLearnMyLanguage/---Word---/---Auth---";
+			sourceTree = "<group>";
+		};
 		BFAF4F6E23313A1B008F3A43 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF7984C622FA0B7C00D83408 /* Build configuration list for PBXNativeTarget "OSLearnMyLanguage" */;
 			buildPhases = (
+				8B6FAE1B69B0A406DC3B7587 /* [CP] Check Pods Manifest.lock */,
 				BF79849322FA0B7B00D83408 /* Sources */,
 				BF79849422FA0B7B00D83408 /* Frameworks */,
 				BF79849522FA0B7B00D83408 /* Resources */,
+				B830D4A3310A2DDB7B7AD41A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF7984C922FA0B7C00D83408 /* Build configuration list for PBXNativeTarget "OSLearnMyLanguageTests" */;
 			buildPhases = (
+				CDB28ECA6DAA95D756CDDE2B /* [CP] Check Pods Manifest.lock */,
 				BF7984AE22FA0B7C00D83408 /* Sources */,
 				BF7984AF22FA0B7C00D83408 /* Frameworks */,
 				BF7984B022FA0B7C00D83408 /* Resources */,
@@ -330,9 +393,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF7984CC22FA0B7C00D83408 /* Build configuration list for PBXNativeTarget "OSLearnMyLanguageUITests" */;
 			buildPhases = (
+				3A137998E09E714C0822769C /* [CP] Check Pods Manifest.lock */,
 				BF7984B922FA0B7C00D83408 /* Sources */,
 				BF7984BA22FA0B7C00D83408 /* Frameworks */,
 				BF7984BB22FA0B7C00D83408 /* Resources */,
+				929AA7CE05F7BCA64940DE5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -392,11 +457,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5313E8231D9C1100CF6E93 /* icon_words.png in Resources */,
+				BF7DB150235FEB2C00BB7F90 /* GoogleService-Info.plist in Resources */,
 				BF7984AA22FA0B7C00D83408 /* LaunchScreen.storyboard in Resources */,
 				BF7984A722FA0B7C00D83408 /* Assets.xcassets in Resources */,
 				BF651CDC234CE924009ADFB2 /* language_note1.png in Resources */,
 				BF651CDE234CEA11009ADFB2 /* language_note2.png in Resources */,
 				BF7984A222FA0B7B00D83408 /* Main.storyboard in Resources */,
+				BF7DB152235FF4AE00BB7F90 /* cancel_button.png in Resources */,
 				BFAF4F7023313A1B008F3A43 /* click1.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,11 +484,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A137998E09E714C0822769C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6FAE1B69B0A406DC3B7587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OSLearnMyLanguage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		929AA7CE05F7BCA64940DE5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests/Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B830D4A3310A2DDB7B7AD41A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OSLearnMyLanguage/Pods-OSLearnMyLanguage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OSLearnMyLanguage/Pods-OSLearnMyLanguage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSLearnMyLanguage/Pods-OSLearnMyLanguage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB28ECA6DAA95D756CDDE2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OSLearnMyLanguageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF79849322FA0B7B00D83408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7DB15B235FFE4200BB7F90 /* OSAuthViewController.m in Sources */,
 				BF5313B2230DEF6A00CF6E93 /* OSAlertController.m in Sources */,
 				BF5313B5230E0B7400CF6E93 /* OSWordDetailsController.m in Sources */,
 				BFAF4F6D23312B6D008F3A43 /* OSSmallCardView.m in Sources */,
@@ -609,6 +780,7 @@
 		};
 		BF7984C722FA0B7C00D83408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9B47AFB404EADBD45663F8 /* Pods-OSLearnMyLanguage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,7 +789,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.OleksandrSulakov.OSLearnMyLanguage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OleksandrSulakov.languageNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -625,6 +797,7 @@
 		};
 		BF7984C822FA0B7C00D83408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA3141DC7188377524E01CA /* Pods-OSLearnMyLanguage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -633,7 +806,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.OleksandrSulakov.OSLearnMyLanguage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OleksandrSulakov.languageNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -641,6 +814,7 @@
 		};
 		BF7984CA22FA0B7C00D83408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68187917D33B26E9C8619DF /* Pods-OSLearnMyLanguageTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -659,6 +833,7 @@
 		};
 		BF7984CB22FA0B7C00D83408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE2711CA7864AEF96D2932C /* Pods-OSLearnMyLanguageTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -677,6 +852,7 @@
 		};
 		BF7984CD22FA0B7C00D83408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A3CC13B4E2410702EE017E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OSLearnMyLanguageUITests/Info.plist;
@@ -694,6 +870,7 @@
 		};
 		BF7984CE22FA0B7C00D83408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6A8E37C9D42D58FFEC113E /* Pods-OSLearnMyLanguage-OSLearnMyLanguageUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OSLearnMyLanguageUITests/Info.plist;
